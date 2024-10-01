@@ -1,11 +1,55 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" modified="2024-10-01T22:19:22.702Z" version="24.6.5" etag="1IwczcdJNY8YgfJzUytl" type="github">
   <diagram name="Logical view" id="Q3zHlML1nVjTOojEM-8T">
-    <mxGraphModel dx="638" dy="1183" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1206" dy="1284" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4R8Vqb8_ePCZMk0T_kGs-2" value="Admin UI" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="110" y="-187" width="160" height="80" as="geometry" />
+        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="311" y="-157" as="sourcePoint" />
+            <mxPoint x="191.5" y="86" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="311" y="24" />
+              <mxPoint x="191" y="24" />
+              <mxPoint x="191" y="73" />
+              <mxPoint x="191" y="73" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4R8Vqb8_ePCZMk0T_kGs-2" value="Admin UI&lt;br&gt;(vaadin Java)" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="240" y="-175" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-1" value="transact DB&lt;div&gt;(SQL Server)&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="136" y="86" width="115" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-3" value="transact domain model (Spring Boot Java)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-134" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-4" value="Client API&lt;br&gt;(vaadin Java)" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="14" y="-172" width="160" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZYkUBuGEUaq6k3iyXzp2-6" target="ZYkUBuGEUaq6k3iyXzp2-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="109" y="24" />
+              <mxPoint x="191" y="24" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-6" value="transact domain model (Spring Boot Java)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="39" y="-129" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZYkUBuGEUaq6k3iyXzp2-8" target="ZYkUBuGEUaq6k3iyXzp2-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-8" value="Azure API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="-242" width="159" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZYkUBuGEUaq6k3iyXzp2-9" target="ZYkUBuGEUaq6k3iyXzp2-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-9" value="Demo Client UI" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="13" y="-331" width="160" height="64" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

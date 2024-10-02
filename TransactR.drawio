@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" modified="2024-10-02T00:20:31.742Z" version="24.6.5" etag="y6ewNuzSvqQKr6CK8qCn" type="github" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" modified="2024-10-02T00:27:48.237Z" version="24.6.5" etag="_KSbDzEQQ5I5fDOiKsfy" type="github" pages="2">
   <diagram name="Logical view" id="Q3zHlML1nVjTOojEM-8T">
     <mxGraphModel dx="1687" dy="1364" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,7 +25,7 @@
         <mxCell id="ZYkUBuGEUaq6k3iyXzp2-3" value="transact domain model (Spring Boot Java)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="260" y="-134" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-4" value="Client API&lt;br&gt;(vaadin Java)" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="ZYkUBuGEUaq6k3iyXzp2-4" value="Customer API&lt;br&gt;(vaadin Java)" style="rounded=0;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="14" y="-172" width="160" height="112" as="geometry" />
         </mxCell>
         <mxCell id="ZYkUBuGEUaq6k3iyXzp2-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZYkUBuGEUaq6k3iyXzp2-6" target="ZYkUBuGEUaq6k3iyXzp2-1">
